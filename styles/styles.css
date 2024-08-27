@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 13px;
+    text-decoration: none;
+}
+
+.ativo{
+    background-color: lightseagreen;
+}
+
+li a:hover:not(.ativo){
+    background-color: black;
+}
+
+.foto{
+    float: left;
+    border: 13px solid gray;
+    margin-right: 14px;
+}
