@@ -1,6 +1,7 @@
 ul{
     list-style-type: none;
     background-color: darkslategray;
+    border: 3px ridge darkcyan;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -18,6 +19,14 @@ li a{
     text-decoration: none;
 }
 
+#guieq{
+    float:right;
+    text-align: center;
+    color: white;
+    padding: 14px 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .ativo{
     background-color: lightseagreen;
 }
@@ -26,8 +35,50 @@ li a:hover:not(.ativo){
     background-color: black;
 }
 
-.foto{
+.fotodeperfil{
     float: left;
+}
+
+#foto{
     border: 13px solid gray;
     margin-right: 14px;
+    margin-top: 14px;
+}
+
+body{
+    background-image: url("../assets/background.jpeg");
+    background-size: cover;
+    background-color: red;
+}
+
+.text{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#github{
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#github:hover{
+    background-color: darkcyan  ;
+}
+
+.netscape{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    padding: 2px;
+    font-family: "handjet", sans-serif;
+}
+
+.netscape{
+    background-attachment: fixed;
+    background-position: center;
 }
