@@ -36,9 +36,8 @@ li a:hover:not(.ativo){
 }
 
 body{
-    background-image: url("../assets/gaia.jpg");
-    background-size: cover;
-    background-color: skyblue;
+    background-image: url("../assets/teste.webp");
+    background-color: blue;
 }
 
 .text{
