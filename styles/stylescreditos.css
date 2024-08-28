@@ -35,16 +35,6 @@ li a:hover:not(.ativo){
     background-color: black;
 }
 
-.fotodeperfil{
-    float: left;
-}
-
-#foto{
-    border: 13px solid gray;
-    margin-right: 14px;
-    margin-top: 14px;
-}
-
 body{
     background-image: url("../assets/background.jpeg");
     background-size: cover;
@@ -55,17 +45,6 @@ body{
     background-color: white;
     padding: 10px;
     text-align: center;
-}
-
-#github{
-    width: 64px;
-    height: 64px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-#github:hover{
-    background-color: darkcyan  ;
 }
 
 .netscape{
