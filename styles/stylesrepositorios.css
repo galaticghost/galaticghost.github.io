@@ -55,3 +55,19 @@ body{
     padding: 2px;
     font-family: "handjet", sans-serif;
 }
+
+.repositorio{
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
