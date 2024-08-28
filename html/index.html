@@ -4,20 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="../assets/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     <title>Guieq Klarrind</title>
+    <script>
+        function hover(element) {
+            element.setAttribute('src', '../assets/navi1.gif');
+        }
+        // Adendo: Não sei usar o javascript
+        function unhover(element) {
+            element.setAttribute('src', '../assets/navi1.png');
+        }
+    </script>
 </head>
 <body>
+    
+    <!--Lista horizontal no topo--> 
     <ul>
         <li><a href="index.html" class="ativo">Início</a></li>
         <li><a href="x.html">Guia</a></li>
+        <li id="guieq">Guieq Klarrind</li>
     </ul>
+
+    <!--Foto do Github e texto-->
+    <div class="fotodeperfil">
+        <img src="../assets/moebius.jpg" alt="Foto de peril" id="foto" >
+        <p class="text">Foto de perfil do github</p>
+    </div>
     
-        <p><img src="../assets/moebius.jpg" alt="Foto de peril" class="foto" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. 
             Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. 
             Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. 
             Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. 
-            Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
-        <a href="https://github.com/galaticghost"><img src="../assets/gitlogo.png" width="64" height="64" alt="Logo do github"></a>
+            Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+    <a href="https://github.com/galaticghost"><img src="../assets/gitlogo.png" alt="Logo do github" id="github"></a>
+
+        <div class="netscape">
+            <p class="text">This page is best view with Netscape 3.0 or better</p>
+            <a href="http://www.oldversion.com/windows/netscape/" display="block"><img src="../assets/navi1.png" width="85" height="40" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
+        </div>
+
+
 </body>
 </html>
