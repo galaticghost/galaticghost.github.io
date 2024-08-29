@@ -51,7 +51,6 @@ li a:hover:not(.ativo){
 
 #texto-foto{
     border: none;
-    text-align: center;
 }
 
 body{
@@ -70,7 +69,8 @@ body{
 #github{
     width: 64px;
     height: 64px;
-    background-color: white;
+    left: 40%;
+    background-color: grey;
     border-radius: 50%;
 }
 
