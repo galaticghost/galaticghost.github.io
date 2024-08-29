@@ -41,6 +41,14 @@ body{
     background-color: skyblue;
 }
 
+.creditos{
+    display: inline;
+    left: 40%;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
 .netscape{
     border: 3px ridge darkcyan;
     background-color: white;
