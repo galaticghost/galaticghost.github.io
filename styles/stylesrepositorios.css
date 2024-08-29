@@ -66,13 +66,14 @@ body{
     float: left;
 }
 
-.right{
-    float: right;
-}
-
-
 .bottom{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.xina{
+    position: absolute;
+    bottom: 0;
+    left: 27%;
 }
