@@ -41,13 +41,9 @@ body{
     background-color: skyblue;
 }
 
-.text{
-    background-color: white;
-    padding: 10px;
-    text-align: center;
-}
-
 .netscape{
+    border: 3px ridge darkcyan;
+    background-color: white;
     position: absolute;
     display: inline;
     text-align: center;

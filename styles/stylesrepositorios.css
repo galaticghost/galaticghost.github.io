@@ -47,6 +47,8 @@ body{
 }
 
 .netscape{
+    border: 3px ridge darkcyan;
+    background-color: white;
     position: absolute;
     display: inline;
     text-align: center;
