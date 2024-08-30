@@ -54,10 +54,12 @@ li a:hover:not(.ativo){
     text-align: center;
     border: 4px outset grey;
     float: left;
+    transition: 0.5s;
 }
 
 .repositorio:hover{
     border: 4px inset grey;
+    opacity: 0.92;
 }
 
 .bottom{

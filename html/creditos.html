@@ -9,15 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     <title>Créditos</title>
-    <script>
-        function hover(element) {
-            element.setAttribute('src', '../assets/navi1.gif');
-        }
-        // Adendo: Não sei usar o javascript. obrigado usuário anônimo do stack overflow
-        function unhover(element) {
-            element.setAttribute('src', '../assets/navi1.png');
-        }
-    </script>
 </head>
 <body>
     <!--Lista horizontal no topo--> 
@@ -46,8 +37,9 @@
 
         <div class="netscape">
             <p class="text">This page is best view with Netscape 3.0 or better</p>
-            <a href="https://archive.org/details/netscape-navigator-4.0.4" display="block" target="_blank" rel="noopener noreferrer"><img src="../assets/navi1.png" width="85" height="40" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
+            <a href="https://archive.org/details/netscape-navigator-4.0.4" display="block" target="_blank" rel="noopener noreferrer"><img src="../assets/navi1.png" width="85" height="40" onmouseover="hoverHtml(this);" onmouseout="unhoverHtml(this);"></a>
         </div>
     
+    <script src="../js/script.js"></script>
 </body>
 </html>
