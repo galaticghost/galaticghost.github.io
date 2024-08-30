@@ -1,4 +1,10 @@
-ul{
+body{
+    background-image: url("../assets/background.jpeg");
+    background-size: cover;
+    background-color: red;
+}
+
+.list{
     list-style-type: none;
     background-color: darkslategray;
     border: 3px ridge darkcyan;
@@ -7,16 +13,20 @@ ul{
     overflow: hidden;
 }
 
-li{
-    float: left;
-}
-
 li a{
+    float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 13px;
     text-decoration: none;
+}
+.ativo{
+    background-color: lightseagreen;
+}
+
+li a:hover:not(.ativo){
+    background-color: black;
 }
 
 #guieq{
@@ -25,14 +35,6 @@ li a{
     color: white;
     padding: 14px 13px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.ativo{
-    background-color: lightseagreen;
-}
-
-li a:hover:not(.ativo){
-    background-color: black;
 }
 
 .fotodeperfil{
@@ -54,17 +56,21 @@ li a:hover:not(.ativo){
     border: none;
 }
 
-body{
-    background-image: url("../assets/background.jpeg");
-    background-size: cover;
-    background-color: red;
-}
 
 .texto{
     border: 3px ridge darkcyan ;
     background-color: white;
     padding: 10px;
     text-align: center;
+}
+
+.right{
+    float: right;
+    border: 3px ridge darkcyan;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 14px;
 }
 
 #github{
