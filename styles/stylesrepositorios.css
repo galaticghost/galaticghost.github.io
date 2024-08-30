@@ -1,3 +1,8 @@
+body{
+    background-image: url("../assets/teste.webp");
+    background-color: blue;
+}
+
 ul{
     list-style-type: none;
     background-color: darkslategray;
@@ -35,27 +40,10 @@ li a:hover:not(.ativo){
     background-color: black;
 }
 
-body{
-    background-image: url("../assets/teste.webp");
-    background-color: blue;
-}
-
 .text{
     background-color: white;
     padding: 10px;
     text-align: center;
-}
-
-.netscape{
-    border: 3px ridge darkcyan;
-    background-color: white;
-    position: absolute;
-    display: inline;
-    text-align: center;
-    right: 0;
-    bottom: 0;
-    padding: 2px;
-    font-family: "handjet", sans-serif;
 }
 
 .repositorio{
@@ -68,6 +56,10 @@ body{
     float: left;
 }
 
+.repositorio:hover{
+    border: 4px inset grey;
+}
+
 .bottom{
     position: absolute;
     bottom: 0;
@@ -78,4 +70,18 @@ body{
     position: absolute;
     bottom: 0;
     left: 27%;
+}
+
+.netscape{
+    border: 3px ridge darkcyan;
+    border-right-style: none;
+    border-bottom-style: none;
+    background-color: white;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    padding: 2px;
+    font-family: "handjet", sans-serif;
 }

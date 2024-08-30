@@ -1,3 +1,9 @@
+body{
+    background-image: url("../assets/gaia.jpg");
+    background-size: cover;
+    background-color: skyblue;
+}
+
 ul{
     list-style-type: none;
     background-color: darkslategray;
@@ -19,14 +25,6 @@ li a{
     text-decoration: none;
 }
 
-#guieq{
-    float:right;
-    text-align: center;
-    color: white;
-    padding: 14px 13px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .ativo{
     background-color: lightseagreen;
 }
@@ -35,10 +33,12 @@ li a:hover:not(.ativo){
     background-color: black;
 }
 
-body{
-    background-image: url("../assets/gaia.jpg");
-    background-size: cover;
-    background-color: skyblue;
+#guieq{
+    float:right;
+    text-align: center;
+    color: white;
+    padding: 14px 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .creditos{
@@ -51,6 +51,8 @@ body{
 
 .netscape{
     border: 3px ridge darkcyan;
+    border-right-style: none;
+    border-bottom-style: none;
     background-color: white;
     position: absolute;
     display: inline;
