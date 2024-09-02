@@ -14,7 +14,7 @@ O que **não** é:
 - Tem hover!
 - Tem corzinha!
 - Tem Netscape!
-- Você pode acessar ele diretamente no seu navegador sem precisar baixar pelo link galaticghost.github.io
+- Você pode acessar ele diretamente no seu navegador sem precisar baixar, pelo link galaticghost.github.io
 - Eu nem tive que setar um servidor com o meu notebook que **não tem bateria**
 
 # Tecnologias usadas
