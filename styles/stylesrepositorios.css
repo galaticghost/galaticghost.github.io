@@ -79,7 +79,7 @@ li a:hover:not(.ativo){
     border-right-style: none;
     border-bottom-style: none;
     background-color: white;
-    position: absolute;
+    position: fixed;
     display: inline;
     text-align: center;
     right: 0;
