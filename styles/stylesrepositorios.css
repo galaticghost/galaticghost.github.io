@@ -25,11 +25,11 @@ li a{
 }
 
 #guieq{
-    float:right;
+    float: right;
     text-align: center;
     color: white;
     padding: 14px 13px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .ativo{

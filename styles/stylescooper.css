@@ -2,6 +2,20 @@ body{
     background-color: black;
 }
 
-p{
+.xina{
     color:white;
+}
+
+.netscape{
+    border: 3px ridge darkcyan;
+    border-right-style: none;
+    border-bottom-style: none;
+    background-color: white;
+    position: fixed;
+    display: inline;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    padding: 2px;
+    font-family: "handjet", sans-serif;
 }
